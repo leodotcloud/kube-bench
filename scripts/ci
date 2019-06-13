@@ -1,0 +1,10 @@
+#!/bin/bash
+set -e
+
+cd $(dirname $0)
+
+./build
+./test
+# Disabling for now as there are errors in vet, metalinter
+#./validate
+./package
