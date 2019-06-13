@@ -1,6 +1,5 @@
 kube-bench
 *.swp
-vendor
 dist
 .vscode/
 hack/kind.test.yaml
@@ -11,3 +10,8 @@ coverage.txt
 # Directory junk file
 .DS_Store
 thumbs.db
+/.dapper
+/.cache
+/.trash-cache
+/bin
+/dist
